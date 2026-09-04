@@ -61,7 +61,7 @@ run_test() {
 
 run_test "semver"
 
-if command -v shellcheck > /dev/null; then
+if command -v shellcheck >/dev/null; then
     if shellcheck "semver.sh"; then
         _ok "Shellcheck"
     else
