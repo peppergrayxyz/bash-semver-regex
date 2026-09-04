@@ -23,9 +23,9 @@ if semver "$1"; then
     echo "Patch: $patch";
     [ -n "$prerelease" ] && echo "Pre-release: $prerelease"
     [ -n "$buildmetadata" ] && echo "Build Metadata: $buildmetadata"
-else 
+else
     echo "No match found!";
-fi 
+fi
 ```
 
 ## Original Source
